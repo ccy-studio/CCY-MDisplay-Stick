@@ -54,7 +54,8 @@ void MX_GPIO_Init(void)
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, EPD_CS_Pin|EPD_DC_Pin|EPD_RST_Pin|LED_Pin
-                          |DS1302_SCL_Pin|DS1302_SDA_Pin|DS1302_RST_Pin, GPIO_PIN_RESET);
+                          |DS1302_SCL_Pin|DS1302_SDA_Pin|DS1302_RST_Pin|AHT_SCL_Pin
+                          |AHT_SDA_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pins : PCPin PCPin */
   GPIO_InitStruct.Pin = KEY2_Pin|KEY3_Pin;
@@ -92,6 +93,13 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(EPD_BUSY_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PBPin PBPin */
+  GPIO_InitStruct.Pin = AHT_SCL_Pin|AHT_SDA_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 

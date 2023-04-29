@@ -31,7 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "stdio.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -79,8 +79,13 @@ void Error_Handler(void);
 #define DS1302_SDA_GPIO_Port GPIOB
 #define DS1302_RST_Pin GPIO_PIN_7
 #define DS1302_RST_GPIO_Port GPIOB
+#define AHT_SCL_Pin GPIO_PIN_8
+#define AHT_SCL_GPIO_Port GPIOB
+#define AHT_SDA_Pin GPIO_PIN_9
+#define AHT_SDA_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
+
 
 /* USER CODE END Private defines */
 
