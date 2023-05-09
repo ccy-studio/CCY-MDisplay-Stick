@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -20,7 +20,23 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c20f314-e160-4ba3-a38b-733627f4973a" name="Changes" comment="" />
+    <list default="true" id="1c20f314-e160-4ba3-a38b-733627f4973a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/page_index.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/page_index.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-6763c4fee8ce123b7b0b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-2ae5d61d75b0b2429c21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-27da20f67fca3f2503aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-05-08T07-08-52-0904.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-CCY-MDisplay-Stick.elf-Debug-d78a033ceef256547ae1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-9217194dfd12779c8cbf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CCY-MDisplay-Stick.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CCY-MDisplay-Stick.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CCY-MDisplay-Stick.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CCY-MDisplay-Stick.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CCY-MDisplay-Stick.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CCY-MDisplay-Stick.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CCY-MDisplay-Stick.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CCY-MDisplay-Stick.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CCY-MDisplay-Stick.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CCY-MDisplay-Stick.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +46,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,11 +65,13 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/MyTempProjects/CCY-MDisplay-Stick/Core/Src",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/chenzedeng/CodeWorkspace/Project/Embedded/STM32_Work/CCY-MDisplay-Stick",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,13 +83,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stm32" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CCY-MDisplay-Stick" TARGET_NAME="CCY-MDisplay-Stick.elf" CONFIG_NAME="Debug" version="1">
-      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\MyTempProjects\CCY-MDisplay-Stick\stm32l0_boot.cfg" reset-type="RUN" download-type="ALWAYS">
+    <configuration name="Stm32" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CCY-MDisplay-Stick" TARGET_NAME="CCY-MDisplay-Stick.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="CCY-MDisplay-Stick" RUN_TARGET_NAME="CCY-MDisplay-Stick.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="$PROJECT_DIR$/stm32l0_boot.cfg" reset-type="RUN" download-type="ALWAYS">
         <debugger kind="GDB" isBundled="true" />
       </openocd>
       <method v="2">
@@ -85,10 +106,17 @@
       <option name="presentableId" value="Default" />
       <updated>1683512129551</updated>
       <workItem from="1683512130636" duration="10000000" />
+      <workItem from="1683639090988" duration="1452000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
   </component>
 </project>

@@ -22,16 +22,21 @@ extern uint8_t displayFlag;
 void indexPageHandlerClick(uint8_t buttonType) {
     switch (buttonType) {
         case KEY_DOWN:
+            printf("Press Down\n");
             currentFragmentIdx = (currentFragmentIdx + 1) % fragment_list_len;
             break;
         case KEY_UP:
+            printf("Press UP\n");
             currentFragmentIdx = (currentFragmentIdx - 1) % fragment_list_len;
             if (currentFragmentIdx < 0) {
                 currentFragmentIdx *= -1;
             }
             break;
         case KEY_SET:
+            printf("Press Set\n");
+            break;
         case KEY_SET_LONG:
+            printf("Press LongSet\n");
             //进入设置页面
             displayFlag = DISPLAY_DATE_SETTING;
             break;
@@ -75,4 +80,9 @@ void indexDisplayShow() {
     } else {
         Error_Handler();
     }
+
+    //测试
+    readAht20();
+    startReadAdc();
+    readDateTime();
 }
